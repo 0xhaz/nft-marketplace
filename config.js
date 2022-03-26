@@ -6,3 +6,8 @@ export const nftmarketaddress = "0x72c7c0c2a3dacdc1fcbe2f3fabc2450b10cc8c85"
 
 export const nftABI = nftabi.abi;
 export const nftMarketABI = nftMarketabi.abi;
+
+export const supportedNetworks = [3]
+export const networkIdToNameMap = {
+    3: 'ropsten'
+}
